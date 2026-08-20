@@ -40,7 +40,7 @@ const TONES = ["Executive brief", "Friendly", "Direct", "Diplomatic", "Formal"];
 function EmailGenerator() {
   const [recipient, setRecipient] = useState("");
   const [intent, setIntent] = useState("");
-  const [tone, setTone] = useState(TONES[0]);
+  const [tone, setTone] = useState<string>("Executive brief");
   const [busy, setBusy] = useState(false);
   const [draft, setDraft] = useState<{ subject: string; body: string } | null>(null);
 
