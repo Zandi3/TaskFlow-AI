@@ -45,5 +45,13 @@ The platform leverages structured JSON prompt engineering and streaming LLM pipe
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/AI-Productivity-Assistant.git](https://github.com/your-username/AI-Productivity-Assistant.git)
-   cd AI-Productivity-Assistant
+   git clone (https://github.com/Zandi3/TaskFlow-AI.git)
+2. **Install dependencies:**
+   npm install
+3. **Run the local development server:**
+   npm run dev
+4. **Build for production:**
+   npm run build
+
+   ## Team and Contributor
+   Zandile Zwane- Lead Developer
